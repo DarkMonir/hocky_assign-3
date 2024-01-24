@@ -8,11 +8,28 @@
 
     background-size: cover;
     background-position: center;
-    margin: 50px 130px;
+    /* margin: 50px 130px; */
     background-repeat: no-repeat;
     text-align: center;
     border-radius: 16px;
-    width: 86%;
+    width: 93%;
+    height:100%px;
+  }
+  .program_2 {
+    background-image: linear-gradient(
+        180deg,
+        rgba(19, 19, 24, 0.8) 0%,
+        rgba(19, 19, 24, 0) 100%
+      ),
+      url(Images/3.png);
+
+    background-size: cover;
+    background-position: center;
+    /* margin: 50px 130px; */
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 16px;
+    width: 93%;
     height:100%px;
   }
 
@@ -22,14 +39,14 @@
         rgba(19, 19, 24, 0.8) 0%,
         rgba(19, 19, 24, 0) 100%
       ),
-      url(Images/2.png);
+      url(Images/4.png);
 
     background-size: cover;
     background-position: center;
-    margin: 50px 130px;
+    /* margin: 50px 130px; */
     background-repeat: no-repeat;
     text-align: center;
     border-radius: 16px;
-    width: 86%;
+    width: 93%;
     height: 410px;
   }
