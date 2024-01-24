@@ -44,7 +44,7 @@
     }
    </style>
   </head>
-  <body class="font-manrope">
+  <body class="font-manrope bg-white">
     <header>
       <!-- nav bar -->
       <nav>
@@ -91,7 +91,7 @@
           </div>
           
           <div class="navbar-end">
-            <button class="btn btn-ghost btn-circle mg:hidden">
+            <button class="btn btn-ghost btn-circle hidden lg:block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -106,12 +106,14 @@
                   d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                 />
               </svg>
+            
             </button>
             <a class="btn bg-hocky_btn text-white">Get Ticket</a>
           </div>
         </div>
       </nav>
-      <!-- sloder or carosal -->
+
+      <!-- slider or carosal -->
 
       <div class="carousel   h-[550px] ">
         <div id="slide1" class="carousel-item relative w-full">
@@ -137,19 +139,32 @@
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>
+
+        
+
+        
         
         
         </div> 
+
+        <section class="hidden lg:block lg:bg-[#131318] absolute rounded-xl w-2/6 p-5 mt-5 text-center right-10 top-96 ">
+          <h3 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h3>
+          <p class="text-white font-medium text-base">In this feature, we will highlight the real hockey heroes by presenting the biographies of the best players and sharing their motivational tales and  incredible on-field accomplishments.</p>
+        </section>
+
+        <section class="bg-[#131318]  rounded-xl p-5 mt-5 text-center lg:hidden">
+          <h3 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h3>
+          <p class="text-white font-medium text-base">In this feature, we will highlight the real hockey heroes by presenting the biographies of the best players and sharing their motivational tales and  incredible on-field accomplishments.</p>
+        </section>
   
     </header>
 
+    
     <main>
 
 
 
       <!-- professional hockey club -->
-
-      
         <section class="mx-auto my-16">
           <div class="text-center font-manrope">
             <div class="flex flex-col lg:my-28  p-6">
@@ -772,6 +787,9 @@
 
 </div>
 </section>
+
+
+
       <!-- Client qns section -->
       <section class="py-10 px-5 lg:py-10">
         <div class="text-center">
@@ -1328,8 +1346,10 @@ Easily reach out to us using the 'Contact Us' feature. Whether you have <br> que
 
     </main>
 
+   
+
    <!-- Footer -->
-      <footer class="footer py-5 px-10 lg:p-10 bg-footer_c text-base-content text-white">
+      <footer class="footer container mx-auto pl-40 pt-10 w-full lg:p-28 flex-row  lg:flex lg:flex-row  lg:gap-96 lg:p-20 bg-footer_c text-base-content text-white">
         <div>
           <header class="footer-title">Get IN Touch</header> 
           <p>
@@ -1342,7 +1362,8 @@ Easily reach out to us using the 'Contact Us' feature. Whether you have <br> que
           </svg>(+62) 123-321-543</a>
         </div> 
 
-        <div>
+       <div class="lg:flex lg:gap-72 grid grid-cols-2 items-center gap-5 justify-center">
+        <div class="flex flex-col ">
           <header class="footer-title">Company</header> 
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Leadership</a>
@@ -1350,7 +1371,7 @@ Easily reach out to us using the 'Contact Us' feature. Whether you have <br> que
           <a class="link link-hover">News & Article</a>
           <a class="link link-hover">Legal Notice</a>
         </div> 
-        <div>
+        <div class="flex flex-col ">
           <header class="footer-title">Support</header> 
           <a class="link link-hover">Help Center</a>
           <a class="link link-hover">FAQ</a>
@@ -1358,7 +1379,7 @@ Easily reach out to us using the 'Contact Us' feature. Whether you have <br> que
           <a class="link link-hover">Contact Us</a>
         </div>
       
-        <div>
+        <div class="flex flex-col col-span-2 items-center">
           <header class="footer-title">Services</header> 
           <a class="link link-hover">Academy</a>
           <a class="link link-hover">Group Lesson</a>
@@ -1366,7 +1387,7 @@ Easily reach out to us using the 'Contact Us' feature. Whether you have <br> que
           <a class="link link-hover">Hockys for kids</a>
           <a class="link link-hover">Hockeys for Adult</a>
         </div>
-      
+      </div>
       </footer>
     
   </body>
